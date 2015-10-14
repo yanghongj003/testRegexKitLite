@@ -15,6 +15,15 @@
 		68D7A51B1BCDFB58005122ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5191BCDFB58005122ED /* LaunchScreen.storyboard */; };
 		68D7A5261BCDFB58005122ED /* testRegexKitLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7A5251BCDFB58005122ED /* testRegexKitLiteTests.m */; };
 		68D7A5311BCDFB58005122ED /* testRegexKitLiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7A5301BCDFB58005122ED /* testRegexKitLiteUITests.m */; };
+		68D7A58B1BCDFBF6005122ED /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D7A58A1BCDFBF6005122ED /* libicucore.A.tbd */; };
+		68D7A58D1BCDFC01005122ED /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D7A58C1BCDFC01005122ED /* libicucore.tbd */; };
+		68D7A5901BCDFD01005122ED /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7A58F1BCDFD01005122ED /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		68D7A5931BCE0861005122ED /* RegexEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7A5921BCE0861005122ED /* RegexEmotion.m */; settings = {ASSET_TAGS = (); }; };
+		68D7A5991BCE0BE7005122ED /* [哈哈]@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5941BCE0BE7005122ED /* [哈哈]@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D7A59A1BCE0BE7005122ED /* [嗯嗯]@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5951BCE0BE7005122ED /* [嗯嗯]@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D7A59B1BCE0BE7005122ED /* [是你啊]@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5961BCE0BE7005122ED /* [是你啊]@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D7A59C1BCE0BE7005122ED /* Expression_45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5971BCE0BE7005122ED /* Expression_45@2x.png */; settings = {ASSET_TAGS = (); }; };
+		68D7A59D1BCE0BE7005122ED /* Expression_46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7A5981BCE0BE7005122ED /* Expression_46@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,17 @@
 		68D7A52C1BCDFB58005122ED /* testRegexKitLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRegexKitLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D7A5301BCDFB58005122ED /* testRegexKitLiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRegexKitLiteUITests.m; sourceTree = "<group>"; };
 		68D7A5321BCDFB58005122ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D7A58A1BCDFBF6005122ED /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		68D7A58C1BCDFC01005122ED /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		68D7A58E1BCDFCFD005122ED /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = RegexKitLite/RegexKitLite.h; sourceTree = "<group>"; };
+		68D7A58F1BCDFD01005122ED /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = RegexKitLite/RegexKitLite.m; sourceTree = "<group>"; };
+		68D7A5911BCE0861005122ED /* RegexEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexEmotion.h; sourceTree = "<group>"; };
+		68D7A5921BCE0861005122ED /* RegexEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexEmotion.m; sourceTree = "<group>"; };
+		68D7A5941BCE0BE7005122ED /* [哈哈]@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[哈哈]@2x.png"; sourceTree = "<group>"; };
+		68D7A5951BCE0BE7005122ED /* [嗯嗯]@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[嗯嗯]@2x.png"; sourceTree = "<group>"; };
+		68D7A5961BCE0BE7005122ED /* [是你啊]@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[是你啊]@2x.png"; sourceTree = "<group>"; };
+		68D7A5971BCE0BE7005122ED /* Expression_45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expression_45@2x.png"; sourceTree = "<group>"; };
+		68D7A5981BCE0BE7005122ED /* Expression_46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expression_46@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D7A58D1BCDFC01005122ED /* libicucore.tbd in Frameworks */,
+				68D7A58B1BCDFBF6005122ED /* libicucore.A.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +123,12 @@
 		68D7A50A1BCDFB58005122ED /* testRegexKitLite */ = {
 			isa = PBXGroup;
 			children = (
+				68D7A59F1BCE20A9005122ED /* Lib */,
+				68D7A59E1BCE2095005122ED /* Model */,
 				68D7A50E1BCDFB58005122ED /* AppDelegate.h */,
 				68D7A50F1BCDFB58005122ED /* AppDelegate.m */,
 				68D7A5111BCDFB58005122ED /* ViewController.h */,
 				68D7A5121BCDFB58005122ED /* ViewController.m */,
-				68D7A5141BCDFB58005122ED /* Main.storyboard */,
-				68D7A5171BCDFB58005122ED /* Assets.xcassets */,
-				68D7A5191BCDFB58005122ED /* LaunchScreen.storyboard */,
-				68D7A51C1BCDFB58005122ED /* Info.plist */,
 				68D7A50B1BCDFB58005122ED /* Supporting Files */,
 			);
 			path = testRegexKitLite;
@@ -117,6 +137,17 @@
 		68D7A50B1BCDFB58005122ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68D7A51C1BCDFB58005122ED /* Info.plist */,
+				68D7A5191BCDFB58005122ED /* LaunchScreen.storyboard */,
+				68D7A5141BCDFB58005122ED /* Main.storyboard */,
+				68D7A5171BCDFB58005122ED /* Assets.xcassets */,
+				68D7A5941BCE0BE7005122ED /* [哈哈]@2x.png */,
+				68D7A5951BCE0BE7005122ED /* [嗯嗯]@2x.png */,
+				68D7A5961BCE0BE7005122ED /* [是你啊]@2x.png */,
+				68D7A5971BCE0BE7005122ED /* Expression_45@2x.png */,
+				68D7A5981BCE0BE7005122ED /* Expression_46@2x.png */,
+				68D7A58C1BCDFC01005122ED /* libicucore.tbd */,
+				68D7A58A1BCDFBF6005122ED /* libicucore.A.tbd */,
 				68D7A50C1BCDFB58005122ED /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +169,24 @@
 				68D7A5321BCDFB58005122ED /* Info.plist */,
 			);
 			path = testRegexKitLiteUITests;
+			sourceTree = "<group>";
+		};
+		68D7A59E1BCE2095005122ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68D7A5911BCE0861005122ED /* RegexEmotion.h */,
+				68D7A5921BCE0861005122ED /* RegexEmotion.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		68D7A59F1BCE20A9005122ED /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				68D7A58E1BCDFCFD005122ED /* RegexKitLite.h */,
+				68D7A58F1BCDFD01005122ED /* RegexKitLite.m */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D7A59A1BCE0BE7005122ED /* [嗯嗯]@2x.png in Resources */,
+				68D7A59C1BCE0BE7005122ED /* Expression_45@2x.png in Resources */,
+				68D7A59D1BCE0BE7005122ED /* Expression_46@2x.png in Resources */,
 				68D7A51B1BCDFB58005122ED /* LaunchScreen.storyboard in Resources */,
+				68D7A59B1BCE0BE7005122ED /* [是你啊]@2x.png in Resources */,
 				68D7A5181BCDFB58005122ED /* Assets.xcassets in Resources */,
+				68D7A5991BCE0BE7005122ED /* [哈哈]@2x.png in Resources */,
 				68D7A5161BCDFB58005122ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +326,9 @@
 			files = (
 				68D7A5131BCDFB58005122ED /* ViewController.m in Sources */,
 				68D7A5101BCDFB58005122ED /* AppDelegate.m in Sources */,
+				68D7A5901BCDFD01005122ED /* RegexKitLite.m in Sources */,
 				68D7A50D1BCDFB58005122ED /* main.m in Sources */,
+				68D7A5931BCE0861005122ED /* RegexEmotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
